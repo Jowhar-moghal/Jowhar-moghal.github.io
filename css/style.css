@@ -8,19 +8,28 @@
     body{
       background: url('../img/back2.jpg');
       background-size: cover ;
-      background-position: 0px 50px;
+      background-repeat: no-repeat;
+      background-position: 50% 30%;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
     }
  
     /******menu *******/
-    nav{
-      background: #303131;
-      height: 70px;
+    #navbar{
+      background-color: black;
+      height: 60px;
       width: 100%;
-      color: #fff;
+      position: fixed;
+      margin-top: -14em;
+      margin-left: 0;
+      display: block;
+      
+    }
+    .fa{
+      color: rgb(255, 255, 255);
       display: inline-block;
+      
     }
     nav .mainMenu {
       display: block;
@@ -29,9 +38,10 @@
     nav .mainMenu li a{
       display: inline-block;
       padding: 15px;
+      font-weight: 500;
       text-decoration: none;
       text-transform: uppercase;
-      color: #fff;
+      color: rgb(255, 255, 255);
       font-size: 1.5rem;
     }
     nav .mainMenu li a:hover {
@@ -69,7 +79,7 @@ nav .logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: rgb(0, 0, 0);
+    background: rgb(55, 255, 195);
     transition: top 1s ease;
     display: none;
 }
@@ -95,6 +105,9 @@ nav .mainMenu .closeMenu {
 }
 .openMenu{
   float: right;
+}
+.fab{
+  color: white;
 }
 
 
