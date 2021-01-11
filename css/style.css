@@ -7,9 +7,9 @@
     }
     body{
       background: url('../img/back2.jpg');
+      width: 100%;
       background-size: cover ;
       background-repeat: no-repeat;
-      background-position: 50% 30%;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
@@ -21,7 +21,7 @@
       height: 60px;
       width: 100%;
       position: fixed;
-      margin-top: -14em;
+      margin-top: -19em;
       margin-left: 0;
       display: block;
       
